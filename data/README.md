@@ -2,6 +2,7 @@
 
 ## Dataset yang Dipilih
 
+<<<<<<< HEAD
 | Item | Isi |
 |---|---|
 | Nama dataset | Daily Rainfall Observations from 460 Stations and Flood Event Records across West Java, Indonesia (2020-2025) |
@@ -36,3 +37,41 @@
 - `data/raw/` berisi data mentah dan tidak diubah.
 - `data/processed/` berisi hasil cleaning yang siap dipakai untuk Milestone 3.
 - Jangan commit file mentah berukuran besar ke Git jika tidak diperlukan; pada repo ini data mentah sudah didokumentasikan sesuai struktur tugas.
+=======
+Isi informasi berikut sebelum Milestone 1.
+
+| Item | Isi |
+|---|---|
+| Nama dataset | `[isi nama dataset]` |
+| Sumber | `[URL BPS / Satu Data Indonesia / BMKG / HuggingFace / Kaggle]` |
+| Lisensi/ketentuan pakai | `[isi]` |
+| Ukuran | `[>= 500 MB atau > 1.000.000 baris]` |
+| Periode data | `[isi]` |
+| Unit analisis | `[isi]` |
+
+## Tempat Mencari Dataset
+
+Pilih dataset Indonesia yang legal digunakan, dapat didokumentasikan sumbernya, dan memenuhi batas ukuran tugas.
+
+| Situs | Kegunaan |
+|---|---|
+| [Satu Data Indonesia](https://data.go.id/) | Portal data terbuka lintas instansi pemerintah Indonesia. |
+| [Badan Pusat Statistik](https://www.bps.go.id/) | Statistik sosial, ekonomi, kependudukan, dan data wilayah. |
+| [BMKG Data Online](https://dataonline.bmkg.go.id/) | Data cuaca, iklim, gempa bumi, dan observasi meteorologi. |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | Dataset publik yang dapat dicari berdasarkan topik, bahasa, atau ukuran. |
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Katalog dataset publik; periksa lisensi dan dokumentasi pembuatnya. |
+| [Google Dataset Search](https://datasetsearch.research.google.com/) | Mesin pencari untuk menemukan dataset dari berbagai portal. |
+
+## Cara Memperoleh Data
+
+1. Buka URL sumber di atas.
+2. Unduh file ke folder `data/raw/` tanpa mengubah data mentah.
+3. Catat nama file dan checksum bila tersedia.
+4. Ubah variabel `DATA_PATH` pada `notebooks/01_data_profiling.ipynb` agar menunjuk ke file tersebut.
+
+## Aturan Penyimpanan
+
+- Jangan commit dataset mentah atau hasil olahan berukuran besar ke Git.
+- File pada `data/raw/` adalah data asli dan tidak boleh diubah.
+- Simpan hasil transformasi yang dapat direproduksi pada `data/processed/`.
+>>>>>>> 4e516c3e7c5f44fd23662b3a346439380ad8007c
