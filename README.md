@@ -229,8 +229,8 @@ Buka JupyterLab pada `http://localhost:8888/lab`. Konfigurasi Dockerfile menjala
 
 Isi bagian ini sebelum pengumpulan akhir.
 
-> Alat AI yang digunakan: [nama alat].
+> Alat AI yang digunakan: AI agent, AI konvensional, MCP-playwright AI agent (untuk model mix dari lebih dari 10 model).
 >
-> Bagian yang dibantu: [contoh: penjelasan error Polars atau review dokumentasi].
+> Bagian yang dibantu: penerjemah knowledge, testing, quality control code, deep research LLM, global internet research.
 >
-> Verifikasi yang dilakukan: [contoh: menjalankan ulang kode, memeriksa dokumentasi resmi, dan memahami setiap cell].
+> Verifikasi yang dilakukan: memeriksa raw data memastikan total data dan kelayakan data, menjalankan ulang code dari milestone 1-3, memastikan data processed telah dibuat dengan benar dan tidak ada kecacatan yang akan menggangu akurasi nantinya, pemahaman konteks pengerjaan dan flow pengerjaan data awal masuk hingga outputnya.
